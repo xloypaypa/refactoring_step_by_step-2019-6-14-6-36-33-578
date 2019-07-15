@@ -1,6 +1,6 @@
 package com.tws.refactoring;
 
-public class Driver {
+public class Driver extends Person {
     private int age;
 
     public Driver(int age) {
