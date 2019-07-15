@@ -1,6 +1,8 @@
 package com.tws.refactoring;
 
-public class Driver {
+import java.io.Serializable;
+
+public class Driver implements Serializable {
     private int age;
 
     public Driver(int age) {
